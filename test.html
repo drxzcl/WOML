@@ -1,0 +1,9 @@
+<head>
+    <script type="text/javascript" src="woml/classifier.js"></script>
+    <script type="text/javascript" src="woml/classificationengine.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    document.writeln(CE.classify(CE.featurize(document.body.innerHTML),classifier));
+</script>
+</body>
